@@ -14,3 +14,4 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('fluent-string/{method}', 'FluentStringController@run');
+Route::get('http-client/{method}', 'HttpClientController@run');
